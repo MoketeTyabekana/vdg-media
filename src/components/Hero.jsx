@@ -12,11 +12,11 @@ export default function Hero() {
             and inspire.
           </h2>
           <div className="flex gap-4">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full flex items-center gap-2">
-              <FaPlay /> Get a Quote
-            </button>
-            <button className="border-2 border-white hover:bg-white hover:text-black px-8 py-3 rounded-full transition-colors">
-              Explore Our Services
+            {/* <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full flex items-center gap-2"> */}
+              {/* <FaPlay /> Get a Quote */}
+            {/* </button> */}
+            <button className=" bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-full transition-colors">
+              Read More
             </button>
           </div>
         </div>
