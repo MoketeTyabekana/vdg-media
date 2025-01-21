@@ -16,7 +16,7 @@ export default function Hero() {
               {/* <FaPlay /> Get a Quote */}
             {/* </button> */}
             <button className=" bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-full transition-colors">
-              Read More
+            Learn More
             </button>
           </div>
         </div>

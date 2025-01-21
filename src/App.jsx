@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Services from "./components/Services"
 import Gallery from "./components/Gallery"
 import Footer from "./components/Footer"
+import About from "./components/About"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="min-h-screen">
         <Navbar />
         <Hero />
+        <About/>
         <Services />
         <Gallery />
         <Footer />
