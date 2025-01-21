@@ -24,7 +24,7 @@ export default function Gallery() {
   return (
     <section className="lg:p-20  bg-gray-200">
        <div className="max-w-full  ">
-   <h2 className="text-4xl font-bold text-center mb-12">Our Gallery</h2>
+   <h2 className="text-4xl font-bold text-center  text-orange-400 mb-12px-8 py-4 rounded-lg bg-gray-100">Top Projects</h2>
  </div>
     </section>
   )

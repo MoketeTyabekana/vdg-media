@@ -5,6 +5,7 @@ import Services from "./components/Services"
 import Gallery from "./components/Gallery"
 import Footer from "./components/Footer"
 import About from "./components/About"
+import Clients from "./components/Clients"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <About/>
         <Services />
         <Gallery />
+        <Clients/>
         <Footer />
       </div>
     </BrowserRouter>
