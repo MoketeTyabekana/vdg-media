@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export default function Footer() {
   return (
     <footer className="  text-white py-12" style={{backgroundColor:"#000040"}}>
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-full  lg:px-20">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
@@ -45,10 +45,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-2 text-gray-50">
-              <li>123 Media Street</li>
-              <li>New York, NY 10001</li>
-              <li>Phone: (555) 123-4567</li>
-              <li>Email: info@vdgmedia.com</li>
+              <li>09 Pink Street, Botshabelo Industrial Park, 9781</li>
+              <li>vdgmstudios@gmail.com</li>
+              <li>Phone: (+27) 849 881 113</li>
             </ul>
           </div>
 
