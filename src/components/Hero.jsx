@@ -2,7 +2,7 @@ import { FaPlay } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <div className="bg-custom-gradient  w-full h-screen">
+    <div className="bg-custom-gradient bg-cover bg-center  w-full h-screen">
      
       <div className="absolute top-0 left-0 w-full h-full ">
         <div className="h-full flex flex-col justify-center items-center text-white px-4 text-center">
