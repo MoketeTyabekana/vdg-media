@@ -53,7 +53,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <ul
-        className={`${!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center"}`}
+        className={`${!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-blue-800 flex flex-col justify-center items-center"}`}
       >
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="/">
