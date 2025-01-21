@@ -7,7 +7,7 @@ export default function Navbar() {
   const handleClick = () => setNav(!nav)
 
   return (
-    <nav className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-black/90 text-white z-50">
+    <nav className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-blue-800/90 text-white z-50">
       <div>
         <h1 className="text-3xl font-bold">VDG Media</h1>
       </div>
