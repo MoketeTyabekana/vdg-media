@@ -22,7 +22,7 @@ export default function Services() {
   return (
     <section className="lg:p-20  bg-gray-100">
       <div className="max-w-full  ">
-        <h2 className="text-4xl font-bold text-center mb-12">Our Services</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 px-8 py-4 rounded-lg bg-gray-100">Our Services</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">

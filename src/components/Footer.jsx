@@ -1,16 +1,20 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"
-import { Link } from "react-router-dom"
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="  text-white py-12" style={{backgroundColor:"#000040"}}>
+    <footer
+      className="  text-white py-12"
+      style={{ backgroundColor: "#000040" }}
+    >
       <div className="max-w-full  lg:px-20">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4">VDG Media</h3>
             <p className="text-gray-50">
-              Bringing your vision to life through expert video and social media services.
+              Bringing your vision to life through expert video and social media
+              services.
             </p>
           </div>
 
@@ -67,6 +71,9 @@ export default function Footer() {
               <a href="#" className="text-gray-50 hover:text-white">
                 <FaLinkedin size={24} />
               </a>
+              <a href="#" className="text-gray-50 hover:text-white">
+                <FaYoutube size={24} />
+              </a>
             </div>
           </div>
         </div>
@@ -76,6 +83,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
-
