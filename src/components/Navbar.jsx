@@ -7,7 +7,7 @@ export default function Navbar() {
   const handleClick = () => setNav(!nav)
 
   return (
-    <nav className="fixed w-full h-[80px] flex justify-between items-center lg:px-20 bg-black  text-white z-50" >
+    <nav className="fixed left-1/2 -translate-x-1/2 top-4 w-4/5 py-5 flex justify-between  items-center lg:px-20 bg-blue-700/95  text-white z-50  rounded-full" >
       <div>
         <h1 className="text-3xl font-bold">VDG <span className="text-orange-400">Media</span></h1>
       </div>
@@ -15,32 +15,32 @@ export default function Navbar() {
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-x-8">
         <li>
-          <Link to="/" className="hover:text-blue-500">
+          <Link to="/" className="hover:text-orange-400">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/about" className="hover:text-blue-500">
+          <Link to="/about" className="hover:text-orange-400">
             About
           </Link>
         </li>
         <li>
-          <Link to="/services" className="hover:text-blue-500">
+          <Link to="/services" className="hover:text-orange-400">
             Services
           </Link>
         </li>
         <li>
-          <Link to="/gallery" className="hover:text-blue-500">
+          <Link to="/gallery" className="hover:text-orange-400">
             Gallery
           </Link>
         </li>
         <li>
-          <Link to="/partners" className="hover:text-blue-500">
+          <Link to="/partners" className="hover:text-orange-400">
             Partners
           </Link>
         </li>
         <li>
-          <Link to="/contact" className="hover:text-blue-500">
+          <Link to="/contact" className="hover:text-orange-400">
             Contact
           </Link>
         </li>
