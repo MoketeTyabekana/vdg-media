@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer
-      className="  text-white py-12"
-      style={{ backgroundColor: "#000040" }}
+      className="  text-white py-12 bg-black"
+     
     >
       <div className="max-w-full  lg:px-20">
         <div className="grid md:grid-cols-4 gap-8">
